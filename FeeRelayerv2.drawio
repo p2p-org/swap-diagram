@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-13T03:12:05.836Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="s1e4EjgFn3LFz7JK04ks" version="20.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-13T03:13:23.882Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="oUuNmRzsTsL9-gPmpCVA" version="20.6.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1182" dy="736" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -25,7 +25,7 @@
         <mxCell id="c-OqHxtNvQWxZz8hAoAr-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="c-OqHxtNvQWxZz8hAoAr-4" target="c-OqHxtNvQWxZz8hAoAr-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="c-OqHxtNvQWxZz8hAoAr-4" value="Append CompensationInstruction: From TokenToPayFeeAccount&lt;br&gt;To&lt;br&gt;Company Account" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="c-OqHxtNvQWxZz8hAoAr-4" value="Append CompensationInstruction: From TokenToPayFeeAccount&lt;br&gt;To&lt;br&gt;Company Account Associated SPL Token Address of the same token" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="115" y="370" width="210" height="90" as="geometry" />
         </mxCell>
         <mxCell id="c-OqHxtNvQWxZz8hAoAr-6" value="Send Transaction to&lt;br&gt;Blockchain" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
