@@ -1,0 +1,37 @@
+<mxfile host="app.diagrams.net" modified="2022-12-13T03:13:23.882Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="oUuNmRzsTsL9-gPmpCVA" version="20.6.2" type="github">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1182" dy="736" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="c-OqHxtNvQWxZz8hAoAr-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-3" target="c-OqHxtNvQWxZz8hAoAr-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="Form Instructions" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="160" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c-OqHxtNvQWxZz8hAoAr-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="c-OqHxtNvQWxZz8hAoAr-0" target="c-OqHxtNvQWxZz8hAoAr-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c-OqHxtNvQWxZz8hAoAr-0" value="Get ExchangeRate from CoinGekco&lt;br&gt;And Calculate Needed SPL Token Amount&lt;br&gt;to pay fee" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="147.5" y="160" width="145" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="c-OqHxtNvQWxZz8hAoAr-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="c-OqHxtNvQWxZz8hAoAr-2" target="c-OqHxtNvQWxZz8hAoAr-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c-OqHxtNvQWxZz8hAoAr-2" value="Change Fee Payer from User to Company&#39;s Account" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c-OqHxtNvQWxZz8hAoAr-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="c-OqHxtNvQWxZz8hAoAr-4" target="c-OqHxtNvQWxZz8hAoAr-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c-OqHxtNvQWxZz8hAoAr-4" value="Append CompensationInstruction: From TokenToPayFeeAccount&lt;br&gt;To&lt;br&gt;Company Account Associated SPL Token Address of the same token" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="115" y="370" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="c-OqHxtNvQWxZz8hAoAr-6" value="Send Transaction to&lt;br&gt;Blockchain" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
