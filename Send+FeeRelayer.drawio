@@ -1,0 +1,132 @@
+<mxfile host="app.diagrams.net" modified="2022-12-13T07:46:28.620Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="HzLDofba94eaovp_n_WO" version="20.6.2" type="github">
+  <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
+    <mxGraphModel dx="1182" dy="736" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="r-TasM2huW7Pql3P_wyL-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="r-TasM2huW7Pql3P_wyL-2" target="r-TasM2huW7Pql3P_wyL-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r-TasM2huW7Pql3P_wyL-2" value="send(token: Token, amount: UInt64, tokenToPayFee: Token?)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r-TasM2huW7Pql3P_wyL-10" value="TRUE" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="r-TasM2huW7Pql3P_wyL-5" target="r-TasM2huW7Pql3P_wyL-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r-TasM2huW7Pql3P_wyL-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="r-TasM2huW7Pql3P_wyL-5" target="r-TasM2huW7Pql3P_wyL-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r-TasM2huW7Pql3P_wyL-13" value="FALSE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="r-TasM2huW7Pql3P_wyL-12">
+          <mxGeometry x="0.0044" y="-2" relative="1" as="geometry">
+            <mxPoint y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r-TasM2huW7Pql3P_wyL-5" value="token.isNativeSOL" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="140" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r-TasM2huW7Pql3P_wyL-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="r-TasM2huW7Pql3P_wyL-9" target="r-TasM2huW7Pql3P_wyL-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r-TasM2huW7Pql3P_wyL-9" value="add instruction SystemProgram.transfer" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="350" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r-TasM2huW7Pql3P_wyL-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="r-TasM2huW7Pql3P_wyL-11" target="r-TasM2huW7Pql3P_wyL-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r-TasM2huW7Pql3P_wyL-16" value="FALSE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="r-TasM2huW7Pql3P_wyL-15">
+          <mxGeometry x="-0.17" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r-TasM2huW7Pql3P_wyL-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="r-TasM2huW7Pql3P_wyL-11" target="r-TasM2huW7Pql3P_wyL-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r-TasM2huW7Pql3P_wyL-19" value="TRUE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="r-TasM2huW7Pql3P_wyL-18">
+          <mxGeometry x="0.03" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r-TasM2huW7Pql3P_wyL-11" value="token.isCreated" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="140" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r-TasM2huW7Pql3P_wyL-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="r-TasM2huW7Pql3P_wyL-14" target="r-TasM2huW7Pql3P_wyL-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r-TasM2huW7Pql3P_wyL-14" value="add instruction:&lt;br&gt;AssociatedTokenProgram&lt;br&gt;.createAssociatedTokenAccount" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="140" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r-TasM2huW7Pql3P_wyL-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="r-TasM2huW7Pql3P_wyL-17" target="r-TasM2huW7Pql3P_wyL-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="375" y="420" />
+              <mxPoint x="160" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r-TasM2huW7Pql3P_wyL-17" value="add instruction TokenProgram.transfer" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="305" y="350" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r-TasM2huW7Pql3P_wyL-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="r-TasM2huW7Pql3P_wyL-21" target="r-TasM2huW7Pql3P_wyL-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r-TasM2huW7Pql3P_wyL-21" value="accountCreationFee = minimumBalanceForRentExemption(165)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="495" y="240" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r-TasM2huW7Pql3P_wyL-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="r-TasM2huW7Pql3P_wyL-24" target="r-TasM2huW7Pql3P_wyL-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r-TasM2huW7Pql3P_wyL-24" value="signers = [user]" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="450" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r-TasM2huW7Pql3P_wyL-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="r-TasM2huW7Pql3P_wyL-27" target="r-TasM2huW7Pql3P_wyL-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r-TasM2huW7Pql3P_wyL-27" value="Change feePayer to Company&#39;s account" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="97.5" y="520" width="125" height="37.5" as="geometry" />
+        </mxCell>
+        <mxCell id="r-TasM2huW7Pql3P_wyL-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="r-TasM2huW7Pql3P_wyL-29" target="r-TasM2huW7Pql3P_wyL-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r-TasM2huW7Pql3P_wyL-29" value="signers += CompanyAccount" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="105" y="590" width="110" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r-TasM2huW7Pql3P_wyL-31" value="Calculate transaction Fee" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="660" width="120" height="47.5" as="geometry" />
+        </mxCell>
+        <mxCell id="r-TasM2huW7Pql3P_wyL-33" value="transactionFee = &lt;font color=&quot;#00cc00&quot;&gt;networkFee&lt;/font&gt; + &lt;font color=&quot;#ff0000&quot;&gt;accountCreationFee&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="527.5" width="310" height="32.5" as="geometry" />
+        </mxCell>
+        <mxCell id="r-TasM2huW7Pql3P_wyL-34" value="&lt;font color=&quot;#00cc66&quot;&gt;signers.count * lamportsPerSignature&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="595" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r-TasM2huW7Pql3P_wyL-36" value="" style="endArrow=classic;html=1;rounded=0;fontColor=#00CC66;exitX=0.409;exitY=-0.032;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#00CC66;" edge="1" parent="1" source="r-TasM2huW7Pql3P_wyL-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="440" as="sourcePoint" />
+            <mxPoint x="407" y="500" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="407" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r-TasM2huW7Pql3P_wyL-39" value="100 first transacitons paid by KeyApp" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#00CC66;" vertex="1" parent="1">
+          <mxGeometry x="340" y="470" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r-TasM2huW7Pql3P_wyL-40" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#FF3333;fontColor=#00CC66;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="530" as="sourcePoint" />
+            <mxPoint x="530" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r-TasM2huW7Pql3P_wyL-41" value="Always paid by user" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="495" y="470" width="135" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r-TasM2huW7Pql3P_wyL-43" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;fontColor=#336600;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="r-TasM2huW7Pql3P_wyL-33" target="r-TasM2huW7Pql3P_wyL-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="460" as="sourcePoint" />
+            <mxPoint x="360" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
